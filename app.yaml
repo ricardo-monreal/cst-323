@@ -1,0 +1,21 @@
+runtime: php74
+env: flex
+
+runtime_config:
+  document_root: public
+  skip_lockdown_document_root: true
+
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY:
+  STORAGE_DIR:  /tmp
+
+
+
+manual_scaling: 
+  instances: 1
+resources:
+  cpu: 0.25
+  memory_gb: 0.50
+  disk_size_gb: 0.25
+
