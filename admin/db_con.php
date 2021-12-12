@@ -1,5 +1,5 @@
 <?php 
-define('DBHOST', '34.125.54.240');
+define('DBHOST', 'mysql:host=');
 define('DBUSER', 'ricardo');
 define('DBNAME', 'student');
 define('DBPASSWORD', 'gcpTest1DB');

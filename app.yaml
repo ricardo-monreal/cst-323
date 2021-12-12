@@ -6,9 +6,10 @@ runtime_config:
   skip_lockdown_document_root: true
 
 env_variables:
-  APP_LOG: errorlog
-  APP_KEY:
-  STORAGE_DIR:  /tmp
+  MYSQL_HOST: mysql:unix_socket=/cloudsql/cst-323-gcp:us-west4:cst-323-gcp-db
+  MYSQL_DB: student
+  MYSQL_USER: ricardo
+  MYSQL_PASS: gcpTest1DB
 
 
 
