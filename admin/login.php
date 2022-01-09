@@ -12,7 +12,40 @@ use Monolog\Handler\FirePHPHandler;
 use Monolog\Handler\LogglyHandler;
 use Monolog\Formatter\LogglyFormatter;
 
+/* class MyLogger2 implements ILogger
+{
+	private static $logger = null;
 
+	static function getLogger()
+	{
+		if(self::$logger == null)
+		{
+			self::$logger = new Logger('playlaravel');
+			self::$logger->pushHandler(new LogglyHandler('78d9d407-e20e-4c6e-9505-e065b836ea6d/tag/monolog', Logger::DEBUG));
+		}
+		return self::$logger;
+	}
+
+	public static function debug($message, $data=array());
+	{
+		self::getLogger()->addDebug($message, $data);
+	}
+
+	public static function info($message, $data=array());
+	{
+		self::getLogger()->addInfo($message, $data);
+	}
+
+	public static function warning($message, $data=array());
+	{
+		self::getLogger()->addWarning($message, $data);
+	}
+
+	public static function error($message, $data=array());
+	{
+		self::getLogger()->addError($message, $data);
+	}
+} */
 
 
 // create the logger channel
@@ -20,7 +53,7 @@ $logger = new Logger('loggin_logger');
 $errLogger = new Logger('error_logger');
 // handlers
 $logger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
-//logger->pushHandler(new LogglyHandler('78d9d407-e20e-4c6e-9505-e065b836ea6d/tag/monolog', Logger::INFO));
+//$logger->pushHandler(new LogglyHandler('78d9d407-e20e-4c6e-9505-e065b836ea6d/tag/monolog', Logger::INFO));
 // error handler
 $errLogger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
 $logger->pushHandler(new FirePHPHandler());
@@ -59,6 +92,7 @@ if(isset($_SESSION['user_login'])){
 						header('Location: index.php');
 						// logger 
 						$logger->info('User logged in succesfully');
+						//$logger->warning('test logs to loggly');
 					}else{
 						$status_inactive = "Your Status is inactive, please contact with admin or support!";
 					}
