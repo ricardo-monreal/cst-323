@@ -12,7 +12,9 @@ use Monolog\Handler\FirePHPHandler;
 use Monolog\Handler\LogglyHandler;
 use Monolog\Formatter\LogglyFormatter;
 
-/* class MyLogger2 implements ILogger
+// Testing feature
+/* 
+class MyLogger2 implements ILogger
 {
 	private static $logger = null;
 
