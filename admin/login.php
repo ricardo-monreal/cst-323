@@ -19,8 +19,8 @@ use Monolog\Formatter\LogglyFormatter;
 $logger = new Logger('loggin_logger');
 $errLogger = new Logger('error_logger');
 // handlers
-//$logger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
-$logger->pushHandler(new LogglyHandler('78d9d407-e20e-4c6e-9505-e065b836ea6d/tag/monolog', Logger::INFO));
+$logger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
+//logger->pushHandler(new LogglyHandler('78d9d407-e20e-4c6e-9505-e065b836ea6d/tag/monolog', Logger::INFO));
 // error handler
 $errLogger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
 $logger->pushHandler(new FirePHPHandler());

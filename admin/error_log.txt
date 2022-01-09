@@ -119,3 +119,11 @@ Stack trace:
 #3 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(327): Monolog\Handler\AbstractProcessingHandler->handle(Array)
 #4 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(526): Monolog\Logger->addRecord(200, 'User logged in ...', Array)
 #5 C:\MAMP\htdocs\cst-323\admin\login.php(61): Monolog\Logger->info(' in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php on line 56
+[09-Jan-2022 17:00:52 UTC] PHP Fatal error:  Uncaught RuntimeException: Curl error (code 60): SSL certificate problem: self signed certificate in certificate chain in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php:56
+Stack trace:
+#0 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php(153): Monolog\Handler\Curl\Util::execute(Resource id #33, 4, false)
+#1 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php(124): Monolog\Handler\LogglyHandler->send('{"message":"Use...', 'inputs')
+#2 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\AbstractProcessingHandler.php(48): Monolog\Handler\LogglyHandler->write(Array)
+#3 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(327): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(526): Monolog\Logger->addRecord(200, 'User logged in ...', Array)
+#5 C:\MAMP\htdocs\cst-323\admin\login.php(61): Monolog\Logger->info(' in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php on line 56
