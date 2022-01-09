@@ -1,0 +1,121 @@
+[09-Jan-2022 16:00:29 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin/vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:00:29 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:14 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:14 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:15 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:15 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:16 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:16 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:16 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:16 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:17 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:17 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:17 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:17 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:26 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:26 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:27 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:27 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:28 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:28 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin./vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:01:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Monolog\Logger' not found in C:\MAMP\htdocs\cst-323\admin\login.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 15
+[09-Jan-2022 16:01:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Monolog\Logger' not found in C:\MAMP\htdocs\cst-323\admin\login.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 15
+[09-Jan-2022 16:03:02 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:02 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:12 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:12 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:12 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:12 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:13 UTC] PHP Warning:  require(C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php): failed to open stream: No such file or directory in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:03:13 UTC] PHP Fatal error:  require(): Failed opening required 'C:\MAMP\htdocs\cst-323\admin../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\MAMP\htdocs\cst-323\admin\login.php on line 6
+[09-Jan-2022 16:15:04 UTC] PHP Notice:  Undefined variable: errlogger in C:\MAMP\htdocs\cst-323\admin\login.php on line 18
+[09-Jan-2022 16:15:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 18
+[09-Jan-2022 16:15:34 UTC] PHP Notice:  Undefined variable: errLogger in C:\MAMP\htdocs\cst-323\admin\login.php on line 66
+[09-Jan-2022 16:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in C:\MAMP\htdocs\cst-323\admin\login.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 66
+[09-Jan-2022 16:45:33 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 18
+[09-Jan-2022 16:45:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 18
+[09-Jan-2022 16:46:48 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:49 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:50 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:50 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:50 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:51 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:53 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:46:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:22
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 22
+[09-Jan-2022 16:47:28 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:47:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:47:29 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:47:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:47:29 UTC] PHP Notice:  Undefined variable: log in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:47:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function pushHandler() on null in C:\MAMP\htdocs\cst-323\admin\login.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:48:23 UTC] PHP Fatal error:  Uncaught Error: Class 'LogglyHandler' not found in C:\MAMP\htdocs\cst-323\admin\login.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\cst-323\admin\login.php on line 23
+[09-Jan-2022 16:50:04 UTC] PHP Fatal error:  Uncaught RuntimeException: Curl error (code 60): SSL certificate problem: self signed certificate in certificate chain in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php:56
+Stack trace:
+#0 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php(153): Monolog\Handler\Curl\Util::execute(Resource id #33, 4, false)
+#1 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php(124): Monolog\Handler\LogglyHandler->send('{"message":"Use...', 'inputs')
+#2 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\AbstractProcessingHandler.php(48): Monolog\Handler\LogglyHandler->write(Array)
+#3 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(327): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(526): Monolog\Logger->addRecord(200, 'User logged in ...', Array)
+#5 C:\MAMP\htdocs\cst-323\admin\login.php(61): Monolog\Logger->info(' in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php on line 56
+[09-Jan-2022 16:51:34 UTC] PHP Fatal error:  Uncaught RuntimeException: Curl error (code 60): SSL certificate problem: self signed certificate in certificate chain in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php:56
+Stack trace:
+#0 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php(153): Monolog\Handler\Curl\Util::execute(Resource id #33, 4, false)
+#1 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php(124): Monolog\Handler\LogglyHandler->send('{"message":"Use...', 'inputs')
+#2 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\AbstractProcessingHandler.php(48): Monolog\Handler\LogglyHandler->write(Array)
+#3 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(327): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Logger.php(526): Monolog\Logger->addRecord(200, 'User logged in ...', Array)
+#5 C:\MAMP\htdocs\cst-323\admin\login.php(61): Monolog\Logger->info(' in C:\MAMP\htdocs\cst-323\vendor\monolog\monolog\src\Monolog\Handler\Curl\Util.php on line 56

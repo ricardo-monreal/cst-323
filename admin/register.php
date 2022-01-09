@@ -1,4 +1,21 @@
 <?php require_once 'db_con.php'; 
+
+	require dirname(__FILE__).'/../vendor/autoload.php';
+	// Monolog
+	use Monolog\Logger;
+	use Monolog\Handler\StreamHandler;
+	use Monolog\Handler\FirePHPHandler;
+
+	// create the logger channel
+	$reglogger = new Logger('register_logger');
+	$regErrLogger = new Logger('register_error_logger');
+	// handlers
+	$reglogger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
+	// error handler
+	$regErrLogger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
+	$reglogger->pushHandler(new FirePHPHandler());
+
+
 	session_start();
 	if (isset($_POST['register'])) {
 		$name = $_POST['name'];
@@ -31,6 +48,8 @@
 		if (!empty($password)) {
 			if ($c_password!==$password) {
 				$input_error['notmatch']="You Typed Wrong Password!";
+				// logger 
+				$regErrLogger->info('User register password error');
 			}
 		}
 
@@ -46,22 +65,34 @@
 							$query = "INSERT INTO `users`(`name`, `email`, `username`, `password`, `photo`, `status`) VALUES ('$name', '$email', '$username', '$password','$photo_name','active');";
 									$result = mysqli_query($db_con,$query);
 								if ($result) {
+									// logger 
+									$reglogger->info('User registered succesfully');
 									move_uploaded_file($_FILES['photo']['tmp_name'], 'images/'.$photo_name);
 									header('Location: register.php?insert=sucess');
 								}else{
+									// logger 
+									$regErrLogger->info('User register error');
 									header('Location: register.php?insert=error');
 								}
 						}else{
 							$passlan="This password more than 8 charset";
+							// logger 
+							$regErrLogger->info('User register password length error');
 						}
 					}else{
 						$usernamelan= 'This username more than 8 charset';
+						// logger 
+						$regErrLogger->info('User register username length error');
 					}
 				}else{
 					$username_error="This username already exists!";
+					// logger 
+					$regErrLogger->info('User register username duplicate error');
 				}
 			}else{
 				$email_error= "This email already exists";
+				// logger 
+				$regErrLogger->info('User register email duplicate error');
 			}
 			
 		}

@@ -1,8 +1,38 @@
 <?php require_once 'db_con.php'; 
+ini_set("display_errors",1);
+ini_set("log_errors",1);
+ini_set("error_log",dirname(__FILE__).'/error_log.txt');
+
+require dirname(__FILE__).'/../vendor/autoload.php';
+// Monolog
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+use Monolog\Handler\FirePHPHandler;
+
+use Monolog\Handler\LogglyHandler;
+use Monolog\Formatter\LogglyFormatter;
+
+
+
+
+// create the logger channel
+$logger = new Logger('loggin_logger');
+$errLogger = new Logger('error_logger');
+// handlers
+//$logger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
+$logger->pushHandler(new LogglyHandler('78d9d407-e20e-4c6e-9505-e065b836ea6d/tag/monolog', Logger::INFO));
+// error handler
+$errLogger->pushHandler(new StreamHandler(dirname(__FILE__).'/app_logs.txt', Logger::INFO));
+$logger->pushHandler(new FirePHPHandler());
+
+
+
 session_start();
 if(isset($_SESSION['user_login'])){
 	header('Location: index.php');
 }
+	
+
 	if (isset($_POST['login'])) {
 		$username= $_POST['username'];
 		$password= $_POST['password'];
@@ -27,14 +57,20 @@ if(isset($_SESSION['user_login'])){
 					if ($row['status']=='active') {
 						$_SESSION['user_login']=$username;
 						header('Location: index.php');
+						// logger 
+						$logger->info('User logged in succesfully');
 					}else{
 						$status_inactive = "Your Status is inactive, please contact with admin or support!";
 					}
 				}else{
 					$worngpass= "This password Wrong!";	
+					// logger
+					$errLogger->info('User used the wrong password');
 				}
 			}else{
 				$usernameerr= "Username Not Found!";
+				//logger
+				$errLogger->info('User used the wrong username');
 			}
 		}
 		
