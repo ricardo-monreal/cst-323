@@ -27,7 +27,7 @@ if (!isset($_SESSION['user_login'])) {
     <script src="../js/dataTables.bootstrap4.min.js"></script>
     <script src="../js/fontawesome.min.js"></script>
     <script src="../js/script.js"></script>
-    <title>Admin Deshboard</title>
+    <title>Admin Dashboard</title>
   </head>
   <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
